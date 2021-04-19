@@ -25,6 +25,7 @@ public class Controller {
             try {
                 oldData = model.getOldData();
                 inputData = view.takeInputData();
+
                 view.viewResult(model.calculateResult(oldData,inputData));
 
             } catch (NumberFormatException err) {
