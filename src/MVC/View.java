@@ -6,7 +6,7 @@ import javax.swing.*;
 
 public class View extends JFrame {
     private JTextField inputField = new JTextField(10);
-    private JLabel textField = new JLabel("put number to add to DATA");
+    private JLabel textField = new JLabel("put number to add to the DATA");
     private JButton button = new JButton("add Data");
     private JTextField resultViewField = new JTextField(10);
 
@@ -16,7 +16,7 @@ public class View extends JFrame {
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        this.setSize(600, 200);
+        this.setSize(600, 100);
 
         panel.add(inputField);
         panel.add(textField);
