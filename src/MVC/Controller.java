@@ -29,7 +29,7 @@ public class Controller {
                 view.viewResult(model.calculateResult(oldData,inputData));
 
             } catch (NumberFormatException err) {
-                view.popUpError(" ERROR in br1 !!! Please put only Numbers !!!");
+                view.popUpError(" ERROR in master !!! Please put only Numbers !!!");
             }
 
         }
