@@ -15,5 +15,15 @@ public class Controller implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
 
+        int data;
+
+        try {
+            data = view.putData();
+            model.addData(data);
+            view.viewData(data);
+        } catch (NumberFormatException err){
+            view.popUpError(err.getMessage());
+        }
+
     }
 }

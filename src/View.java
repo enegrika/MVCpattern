@@ -25,6 +25,8 @@ public class View extends JFrame {
     }
 
     public int putData() {
+
+
         return Integer.parseInt(num1.getText());
     }
 
